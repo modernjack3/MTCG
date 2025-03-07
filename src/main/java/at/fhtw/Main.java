@@ -34,6 +34,7 @@ public class Main {
         router.addService("/stats", new StatsService());
         router.addService("/scoreboard", new ScoreboardService());
         router.addService("/battles", new BattleService());
+        router.addService("/tradings", new TradeService());
         //Special feature
         router.addService("/history", new HistoryService());
         return router;
